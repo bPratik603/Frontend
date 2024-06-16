@@ -1,0 +1,615 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    
+    /* width:100%; */
+    /* height: 100%; */
+}
+
+/* purple starts */
+.purple{
+    background-color: rgb(190, 45, 158);
+}
+
+.purple img{
+    padding-left:10px;
+    margin-top:1%;
+    height: 30px;
+    width: 100px;
+}
+ .purple ul{
+    position:absolute;
+    top:25px;
+    right:0%;
+    
+}
+.purple li{
+    display:inline;
+    
+}
+
+.purple a{
+
+    color:white;
+    font-size:18px;
+    padding:15px;
+    text-decoration:none;
+}
+
+.purple button a{
+    font-size:13px;
+}
+.purple h3{
+    margin-top:50px;
+    color:white;
+    text-align: center;
+    
+}
+.purple button{
+    color:white;
+    background-color: orange;
+    border-radius: 5px;
+    margin-left:43%;
+    height: 25px;
+    width:15%;
+    border:none;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    margin-top:20px;
+    margin-bottom:100px;
+}
+
+
+
+
+/* purple ends here */
+
+/* service provider starts */
+.aqua{
+    background-color: rgb(65, 201, 189);
+}
+
+.aqua h3{
+    color:white;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom: 5px;
+}
+
+.aqua p{
+    color:white;
+    text-align: center;
+}
+
+.aqua hr{
+    border-color:black;
+    width: 5%;
+    margin-left:48%;
+    margin-bottom: 30px;
+}
+
+/*  
+.aqua ul li img{
+    margin-top:30px;
+    margin-left:70px;
+    height: 100px;
+}*/
+
+ .div1{ 
+    height: 250px;
+    width: 150px;
+    /* border:2px solid black; */
+    margin-left:180px;
+    margin-top:60px;
+    display:inline-block;
+    color:white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.div1 img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/*  
+.div2{ 
+    height: 200px;
+    width: 100px;
+    border:2px solid black;
+    margin-left:70px;
+    margin-top:60px;
+    display:inline-block;
+
+}
+
+
+.div3{ 
+    height: 200px;
+    width: 100px;
+    border:2px solid black;
+    margin-left:70px;
+    margin-top:60px;
+    display:inline-block;
+}
+
+.div4{ 
+    height: 200px;
+    width: 150px;
+    border:2px solid black;
+    margin-left:70px;
+    margin-top:60px;
+    display:inline-block;
+}
+*/
+
+/* service provider ends */
+
+/* Team starts */
+.Team{
+    background-color:whitesmoke;
+}
+
+.Team h3{
+     text-align: center;
+     margin-bottom: 10px;
+}
+
+.Team hr{
+    border-color:black;
+    width: 5%;
+    margin-left:48%;
+    margin-bottom: 10px;
+}
+
+.Team p{
+    text-align: center;
+    color:brown;
+    font-size:15px;
+}
+
+.Team h6{
+    color:skyblue;
+}
+.Tdiv1{
+    height: 250px;
+    width: 160px;
+    
+    margin-left:170px;
+    text-align: center;
+    display:inline-block;
+    margin-top:40px;
+}
+
+.Tdiv1 i{
+    margin-left:10px;
+    
+}
+/* Team ends */
+
+/* skills starts */
+.skills{
+    background-color:white;
+}
+
+.skills h3{
+    text-align: center;
+    margin-top:25px;
+    margin-bottom: 20px;
+}
+
+.skills p{
+    text-align: center;
+}
+
+.skills hr{
+    border-color:black;
+    width: 5%;
+    margin-left:48%;
+    margin-bottom: 10px;
+}
+
+.skills1{
+
+position:absolute;
+top:32%;
+left:50%;
+font-size:30px;
+transform:translate(-50%,-50%); 
+}
+
+.Sdiv1{
+    height: 150px;
+    width: 150px;
+    
+    margin-left:170px;
+    text-align: center;
+    display:inline-block;
+    margin-top:40px;
+  
+    position:relative;
+    
+}
+/* skills ends */
+
+/* portfolio starts*/
+
+.portfolio{
+    background-color:bisque;
+    width:100%;
+}
+
+.portfolio h2{
+    padding-top:40px;
+    text-align: center;
+}
+
+.portfolio hr{
+    border-color:black;
+    width: 5%;
+    margin-left:48%;
+    margin-top: 10px;
+
+}
+
+.portfolio p{
+    text-align:center;
+    margin-top:15px;
+}
+
+.btn1{
+    height: 30px;
+    width:60px;
+    background-color: rgb(23, 169, 180);
+    color:white;
+    border-radius: 10px;
+    border:none;
+    
+}
+
+.portfolio ul {
+    list-style-type:none;
+   margin-left: 35%;
+   margin-top:10px;
+}
+
+.portfolio ul li{
+    display:inline-block;
+    margin-left:2%;
+}
+
+.computer ul{
+    margin-left:25%;
+}
+
+.computer ul li{
+    margin-left:5%;
+}
+.Pdiv1{
+    height: 200px;
+    width:250px;
+    /* border:1px solid black; */
+    /*margin-top:10px;
+     top:10px; 
+    left:20px;
+    
+    position:absolute;*/
+    text-align: center;
+    font-weight: 200;
+}
+
+.Pdiv2{
+    height: 200px;
+    width:250px;
+    /* border:1px solid black; */
+    /*margin-top:10px;
+    top:10px;
+    right:20px;
+    position:absolute;*/
+    text-align: center;
+}
+
+.Pdiv3{
+    height: 200px;
+    width:250px;
+    /* border:1px solid black; */
+    
+    /*bottom:0;
+    left:0;
+    position:absolute;*/
+    text-align: center;
+}
+
+.Pdiv4{
+    height: 200px;
+    width:250px;
+    /* border:1px solid black; */
+    /*bottom:0;
+    right:0;
+    position:absolute;*/
+    text-align: center;
+    
+}
+
+.btn2{
+    background-color:  rgb(23, 169, 180);
+    height: 30px;
+    width: 220px;
+    color:white;
+    border-radius: 10px;
+    margin-left:40%;
+    border:none;
+    margin-bottom:20px;
+}
+/*portfolio ends */
+
+/* about us starts */
+
+.about{
+    background-color: rgb(186, 60, 98);
+    color:white;
+}
+
+.about h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about hr{
+   border-color:black;
+   width: 5%;
+   margin-left:48%;
+   margin-bottom: 10px;
+}
+
+.about p{
+   text-align: center;
+   color:rgb(226, 48, 140);
+   font-size:15px;
+}
+
+.about h6{
+   color:skyblue;
+}
+.Adiv1{
+   height: 250px;
+   width: 160px;
+   
+   margin-left:170px;
+   text-align: center;
+   display:inline-block;
+   margin-top:40px;
+}
+
+.Adiv1 i{
+   margin-left:10px;
+}
+
+.about h3{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top:30px;
+}
+
+.about hr{
+   border-color:black;
+   width: 5%;
+   margin-left:48%;
+   margin-bottom: 10px;
+}
+
+.about p{
+   text-align: center;
+   color:white;
+   font-size:15px;
+}
+
+.about h6{
+   color:white;
+}
+
+.about h5{
+    color:rgb(231, 231, 90);
+}
+.Adiv1{
+   height: 250px;
+   width: 160px;
+   
+   margin-left:170px;
+   text-align: center;
+   display:inline-block;
+   margin-top:40px;
+}
+
+.Adiv1 i{
+   margin-left:10px;
+   
+}
+/* about us ends */
+
+/* contact starts */
+
+.contact{
+    background-color: rgb(76, 76, 190);
+    width: 100%;
+}
+
+.contact h3{
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 10px;
+    color:white;
+}
+
+.contact hr{
+    border-color:black;
+    width:5%;
+    margin-left:47.5%;
+}
+
+.contact p{
+    text-align: center;
+    color:white;
+    padding-top:15px;
+}
+
+.contact ul{
+    /* background-color: rgb(26, 26, 109); */
+    margin-left:30%;
+    margin-top:20px;
+}
+
+.contact ul li{
+    display:inline;
+}
+
+.contact ul li input{
+    background-color: rgb(32, 32, 132);
+    border-radius: 7px;
+    height: 30px;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.message{
+    height:100px; 
+    width:42%;
+    margin-left:30%;
+    background-color:  rgb(32, 32, 132);
+    border-radius: 10px;
+    color:rgb(152, 152, 92);
+    padding-bottom: 70px;
+    padding-left:5px;
+    margin-bottom:10px;
+}
+/* .contact textarea{ 
+    margin-left:30%;
+    background-color:  rgb(32, 32, 132);
+    border-radius: 10px;
+    padding-top:5px;
+    padding-left:10px;
+    margin-bottom:10px;
+}*/
+
+.contact button{
+    color:white;
+    margin-left:40%;
+    background-color: rgb(32, 32, 132);
+    width:20%;
+    height: 25px;
+    border-radius: 7px;
+    margin-bottom:30px;
+}
+
+.bottom-nav ul{
+    color:white;
+    margin-left:0%;
+    background-color: rgb(69, 69, 202);
+    
+}
+
+.bottom-nav ul li{
+    padding-left:8%;
+    font-size:20px; 
+
+    
+}
+/* contact ends */
+
+@media (max-width:769px)
+{
+    .Pbtn1 ul {
+           margin-left: 35%;
+    }
+
+    .computer ul{
+        margin-left:18%;
+    }
+}
+
+@media (max-width:769px)
+{
+    .purple a{
+        font-size: 16px;
+    }
+    .purple button{
+        width: 150px;
+        margin-left: 40%;
+    }
+    
+}
+
+.main{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 0px;
+    border-radius: 4px;
+     display: none; 
+}
+.line{
+    height: 1px;
+    width: 30px;
+    padding: 2px;
+    background-color: black;
+    margin: 3px;
+    margin-top: 6px;
+}
+
+@media (max-width:426px)
+{
+    .purple ul{
+        display: none;
+    }
+    .main
+    {
+        display: inline-block;
+    }
+    .purple img{
+        height: 25px;
+        margin-left: 20%;
+    }
+    .purple button{
+        margin-left: 33%;
+    }
+
+    .Pbtn1 ul{
+    
+        margin-left:17%;
+    }
+
+    .btn2{
+        margin-left:34%;
+        width:160px;
+        font-size:12px;
+    }
+
+    .contact button{
+        font-size:9px;
+    }
+    
+    .bottom-nav ul li{
+        font-size: 13px;
+    }
+
+    .Adiv1{
+        margin-left: 130px;
+    }
+
+    .Sdiv1{
+        margin-left:140px;
+    }
+
+    .Tdiv1{
+        margin-left:140px;
+    }
+
+    .div1{
+        margin-left:140px;
+    }
+}
